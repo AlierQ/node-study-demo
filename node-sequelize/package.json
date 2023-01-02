@@ -1,0 +1,19 @@
+{
+  "name": "node-sequelize",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node-dev src/main.js"
+  },
+  "dependencies": {
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.25.7",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@types/sequelize": "^4.28.14"
+  }
+}
